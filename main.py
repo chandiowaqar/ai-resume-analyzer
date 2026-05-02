@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 st.set_page_config(page_title="AI Resume Analyzer", page_icon="📄")
-st.title("AI Resume Analyzer)")
+st.title("AI Resume Analyzer📠")
 st.write("Upload your resume and get AI feedback.")
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
